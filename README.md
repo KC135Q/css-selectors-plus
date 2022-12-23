@@ -1,4 +1,4 @@
-# css-selectors-plus-plus-plus
+# css-selectors-plus-plus-plus-plus
 All about css selectors
 
 ## Getting started
