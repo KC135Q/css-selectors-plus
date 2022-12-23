@@ -1,2 +1,28 @@
-body {
+a[target] {
+  text-decoration: overline;
+}
+
+a[target="_blank"] {
+  font-weight: bolder;
+}
+
+a[href="#"]:after {
+  text-decoration: none;
+  content: "🏡";
+}
+
+p[data-desc~="yellow"] {
+  background-color: yellow;
+}
+
+p[data-desc~="blue"] {
+  background-color: blue;
+  color: white;
+}
+
+a[href$=".com"]:before {
+  content: "This is a link --->";
+}
+a[href$=".org"]:before {
+  content: "This is an org link --->";
 }
